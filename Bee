@@ -443,7 +443,7 @@ local lastsound = nil
 local lastword = "None"
 local istypingmaybe = false
 local typingword = false
-local pretypewait = 1.2
+local pretypewait = 5
 
 local function presskey(key)
     local keycode = keycodemap[key:lower()]
