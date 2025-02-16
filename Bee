@@ -437,7 +437,7 @@ local keycodemap = {
     ["y"] = 0x59, ["z"] = 0x5A, ["enter"] = 0x0D,
 }
 
-local typingdelay = 0
+local typingdelay = 0.3
 local autotypeenabled = false
 local lastsound = nil
 local lastword = "None"
